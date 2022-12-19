@@ -46,9 +46,26 @@ const NavBar = () => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span className="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="30"
+              height="30"
+              fill="currentColor"
+              className="bi bi-list"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fillRule="evenodd"
+                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+              />
+            </svg>
+          </span>
         </button>
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+        <div
+          className="collapse navbar-collapse mt-4 "
+          id="navbarSupportedContent"
+        >
           <form className="d-flex w-50" role="search">
             <div
               className="input-search d-flex"
@@ -94,6 +111,19 @@ const NavBar = () => {
 export default NavBar;
 
 const Wrapper = styled.nav`
+  .navbar-toggler {
+    border-color: #fff;
+    color: #fff;
+  }
+
+  .navbar-toggler-icon {
+    background-image: none;
+  }
+
+  .navbar-toggler:focus {
+    box-shadow: 0 0 0 #fff;
+  }
+
   .navbar-brand {
     margin-right: 5rem;
     display: flex;

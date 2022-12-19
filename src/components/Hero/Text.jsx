@@ -3,7 +3,7 @@ import Button from "../UI/Button";
 
 import play from "../../assets/play.png";
 
-const Text = () => {
+const Text = ({ h1, p }) => {
   return (
     <Wrapper className="">
       <h1 className="mb-4">

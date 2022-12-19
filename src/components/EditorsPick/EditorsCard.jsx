@@ -76,9 +76,17 @@ const arts = [
   },
 ];
 
-export const EditorsCard = ({ artImg, name, no, ownerPic, ownerName, bid }) => {
+export const EditorsCard = ({
+  artImg,
+  name,
+  no,
+  ownerPic,
+  ownerName,
+  bid,
+  style,
+}) => {
   return (
-    <Wrapper className="mt-5">
+    <Wrapper className="mt-5" style={style}>
       <div style={{ padding: "1em" }}>
         <img src={artImg} alt="" />
 
