@@ -79,7 +79,19 @@ const Footer = () => {
         </ul>
       </div>
 
-      <p className="text-center">Copyright All right reserved @ 2022</p>
+      <p className="text-center">
+        Copyright All right reserved{" "}
+        <span className="daniel">
+          <a
+            target="_blank"
+            href="https://twitter.com/iamdanztee"
+            rel="noreferrer"
+          >
+            @danztee
+          </a>{" "}
+        </span>
+        2022
+      </p>
     </Wrapper>
   );
 };
@@ -115,6 +127,10 @@ const Wrapper = styled.footer`
     svg {
       fill: #f91a9f;
     }
+  }
+
+  .daniel a {
+    color: #0d6efd !important;
   }
 `;
 export default Footer;

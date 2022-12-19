@@ -35,8 +35,8 @@ const Wrapper = styled.section`
       background: rgba(241, 216, 243, 0.5);
       outline: none;
 
-      height: 3.5rem;
-      padding: 1rem;
+      height: 3.1rem;
+      padding: 0.5rem;
       border: none;
       font-size: 1.4rem;
 
@@ -57,10 +57,10 @@ const Wrapper = styled.section`
 
     .sub-btn {
       position: absolute;
-      margin-left: 13rem;
+      margin-left: 13.5rem;
 
       @media screen and (min-width: 992px) {
-        margin-left: 21rem;
+        margin-left: 21.5rem;
       }
 
       button {
