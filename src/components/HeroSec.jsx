@@ -7,7 +7,7 @@ import four from "../assets/four-four.png";
 
 const HeroSec = () => {
   return (
-    <Wrapper className="row my-5">
+    <Wrapper className="row">
       <div className="col-sm-12 col-md-6" id="first-cover">
         <h1 className="mb-4">Get more beautiful art work here</h1>
 
@@ -54,6 +54,7 @@ const Wrapper = styled.section`
   .img-container {
     position: relative;
     height: 25rem;
+    left: 5rem;
 
     img {
       position: absolute;
